@@ -23,4 +23,4 @@ def largestProduct(n):
         maxProduct = max(maxProduct, product)
     return maxProduct
 
-print(largestProduct(13))
+print(largestProduct(13)) # 23514624000
