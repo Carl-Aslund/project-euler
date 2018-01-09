@@ -19,4 +19,4 @@ def tripletProduct(n):
     return reduce(lambda x,y: x*y, triplet)
     
 
-print(tripletProduct(1000))
+print(tripletProduct(1000)) # 31875000
