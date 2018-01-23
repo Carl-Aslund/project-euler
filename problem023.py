@@ -1,4 +1,3 @@
-from math import sqrt
 
 def sumDivisors(n):
     """Adds up all the proper divisors of n."""
