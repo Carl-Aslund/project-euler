@@ -15,8 +15,10 @@ def writePrimes(n, primes=[]):
         if isPrime:
             primes.append(i)
     file = open('primeList.txt', 'w')
+    file.write("[")
     for p in primes:
-        file.write(str(p))
+        file.write(str(p)+",")
+    file.write("]")
     file.close()
 
-writePrimes(500000)
+writePrimes(1000)
