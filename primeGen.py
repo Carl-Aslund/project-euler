@@ -21,4 +21,4 @@ def writePrimes(n, primes=[]):
     file.write("]")
     file.close()
 
-writePrimes(1000)
+writePrimes(500000)
