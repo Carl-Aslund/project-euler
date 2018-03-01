@@ -53,4 +53,4 @@ if __name__ == "__main__":
                         total=primes[a]+primes[b]+primes[c]+primes[d]+primes[e]
                         if total < result:
                             result = total
-                            print(result)
+                            print(result) # 26033
