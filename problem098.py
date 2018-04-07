@@ -5,7 +5,7 @@ def sq(n):
     return x if int(x**0.5)**2 == x else False
 
 words = [(w[1:-1], sorted(w[1:-1])) 
-    for w in open("p098_words.txt").read().split(',') if len(w)>6]
+    for w in open("words_098.txt").read().split(',') if len(w)>6]
 
 word_pairs = []
 while words:
